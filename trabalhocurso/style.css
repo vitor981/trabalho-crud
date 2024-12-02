@@ -1,0 +1,215 @@
+.hero-section {
+    background: url('./images/hero1.png') center/cover no-repeat;
+    color: white;
+    height: 600px; 
+    position: relative;
+    border-bottom: 5px solid #e43e3e;
+    padding-bottom: 5px;
+}
+.hero-section-player {
+    position: relative;
+    color: white;
+    height: 600px;
+    font-weight: bold;
+    overflow: hidden;
+    border-bottom: 4px solid #d43d3d;
+    padding-bottom: 5px; 
+}
+.hero-section-player::before {
+    content: "";
+    background: url('./images/heroplayer.jpg') center/cover no-repeat;
+    filter: brightness(30%); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; 
+}
+.hero-section-player * {
+    position: relative;
+    z-index: 2; 
+}
+.hero-section-dm {
+    position: relative;
+    color: white;
+    height: 600px;
+    font-weight: bold;
+    overflow: hidden;
+    border-bottom: 4px solid #d43d3d;
+    padding-bottom: 5px; 
+}
+.hero-section-dm::before {
+    content: "";
+    background: url('./images/herodm.jpg') center/cover no-repeat;
+    filter: brightness(30%); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; 
+}
+.hero-section-dm * {
+    position: relative;
+    z-index: 2; 
+}
+.hero-content {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    max-width: 500px;
+}
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.h1-dm {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.text-muted {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.85rem;
+    color: #6c757d;
+}
+
+.btn-danger {
+    background-color: #d9534f;
+    border: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #c9302c;
+}
+
+.card img {
+    height: 350px;
+    object-fit: cover;
+}
+
+.side-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    border: 2px solid #d43d3d; 
+    border-radius: 8px; 
+    padding: 5px; 
+}
+.side-image-main {
+    border: 2px solid #d43d3d; 
+    border-radius: 8px; 
+    padding: 5px; 
+}
+.content-wrapper {
+    background-color: #f5f5f5; 
+    width: 100%; 
+    padding: 30px 0;
+    margin-bottom: 2%;
+    border-bottom: 5px solid #d43d3d;
+    padding-bottom: 5px; 
+}
+footer{
+    margin-top: 8%;
+}
+.background-login {
+    background: url('./images/login.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+.hero-custom-section {
+    background: url('./images/heroinfo.jpg') center/cover no-repeat;
+    color: white;
+    padding: 60px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.hero-custom-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+}
+
+.hero-custom-content {
+    position: relative;
+    z-index: 2; 
+    max-width: 500px;
+}
+
+.hero-custom-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.hero-custom-button {
+    background-color: #c9302c;
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+.hero-custom-button:hover {
+    background-color: #a02020;
+}
+.hero-section-info {
+    position: relative;
+    color: white;
+    height: 600px;
+    font-weight: bold;
+    overflow: hidden;
+    border-bottom: 4px solid #d43d3d;
+    padding-bottom: 5px; 
+}
+.hero-section-info::before {
+    content: "";
+    background: url('./images/imginfo2.png') center/cover no-repeat;
+    filter: brightness(30%); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; 
+}
+.hero-section-info * {
+    position: relative;
+    z-index: 2; 
+}
+.contlivro{
+    border-bottom: 4px solid #d43d3d;
+    padding-bottom: 5px; 
+    margin-top: 4%;
+}
